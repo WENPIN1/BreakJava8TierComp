@@ -1,7 +1,7 @@
 # BreakJava8TierComp
 Java8 Tiered Compilation will incorrectly change caller argument 
 
-run class my.trade.TM1 with JVM_OPTIONS "-ea -XX:+UseG1GC -verbose:gc -XX:+PrintGCDateStamps -Xms1g -Xmx2g" to reproduce this issue on Windows x64 
+run class my.trade.TM1 with JVM_OPTIONS "java -ea -XX:+UseG1GC -verbose:gc -XX:+PrintGCDateStamps -Xms1g -Xmx2g -cp java99.jar my.trade.TM1" to reproduce this issue on Windows x64 
 
 
 
