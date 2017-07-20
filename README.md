@@ -11,3 +11,5 @@ Exception in thread "main" java.lang.AssertionError: p : 0.0 > 0 (?)
 	at my.trade.TM1.case8(TM1.java:102)
 	at my.trade.TM1.mainTest(TM1.java:128)
 	at my.trade.TM1.main(TM1.java:145)
+
+![Java Bugs 8148175](JDK-8148175.jpg?raw=true "Java Bugs 8148175")
